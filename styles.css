@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+} 
+#heading{
+    background-color: lightgreen; 
+    height: 350px;
+    padding: 50px 50px 1px;
+    font-size: 17px;
+}
+#heading a:hover{
+    color: rgb(133, 4, 255);
+}
+#life{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+    font-size: 17px;
+}
+#carrer{
+    text-align:center;
+    background-color: rgb(253, 253, 71);
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+    font-size: 17px;
+}
+#production{
+    text-align:center;
+    background-color: lightpink;
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+    font-size: 17px;
+}
+#death{
+    text-align:center;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+    font-size: 17px;
+}
+#awards{
+    text-align:center;
+    background-color: rgba(253, 192, 78, 0.856);
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+}
+#honours{
+    text-align:center;
+    background-color: rgba(252, 109, 252, 0.568);
+    margin: 0 auto;
+    padding: 15px 50px 50px;
+}
+.content-wrap{
+    max-width: 900px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0px 50px 1px;
+} 
+ 
+h3{
+    color: rgb(15, 15, 15);
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+img{
+    float: left;
+    margin: 0px 50px 0px 0px;
+    width: 450px;
+    height: 270px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    font-family: Montesa;
+    font-weight: 800;
+    margin:0 ;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-title{
+    text-align: left;
+}
+.table th, .table td{
+    border: 1px solid black;
+    padding: 8px
+}
+.table tr:nth-child(even){
+    background-color: aliceblue;
+}
+.table tr:hover{
+    background-color: #ddd;
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04aa6d;
+}
